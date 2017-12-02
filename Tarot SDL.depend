@@ -1,0 +1,845 @@
+# depslib dependency file v1.0
+1510946374 source:d:\programmation (c & c#)\c\tarot sdl\carte.c
+	"carte.h"
+
+1510324286 d:\programmation (c & c#)\c\tarot sdl\carte.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"joueur.h"
+	"structures.h"
+	"liste_chainee.h"
+
+1507905904 d:\programmation (c & c#)\c\tarot sdl\joueur.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1510946836 d:\programmation (c & c#)\c\tarot sdl\structures.h
+
+1508504261 d:\programmation (c & c#)\c\tarot sdl\liste_chainee.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1506784392 source:d:\programmation (c & c#)\c\tarot sdl\fichier.c
+	"fichier.h"
+
+1507905904 d:\programmation (c & c#)\c\tarot sdl\fichier.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<dirent.h>
+	<errno.h>
+	"joueur.h"
+	<sys/types.h>
+
+1511016125 source:d:\programmation (c & c#)\c\tarot sdl\jeu_carte.c
+	"jeu_carte.h"
+
+1510948772 d:\programmation (c & c#)\c\tarot sdl\jeu_carte.h
+	<stdio.h>
+	<stdlib.h>
+	"liste_chainee.h"
+	"structures.h"
+
+1508503989 source:d:\programmation (c & c#)\c\tarot sdl\joueur.c
+	"joueur.h"
+
+1509816349 source:d:\programmation (c & c#)\c\tarot sdl\liste_chainee.c
+	"liste_chainee.h"
+
+1511092006 source:d:\programmation (c & c#)\c\tarot sdl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"joueur.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 d:\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325788834 d:\codeblocks\sdl-1.2.15\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 d:\codeblocks\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_platform.h
+
+1326110994 d:\codeblocks\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 d:\codeblocks\sdl-1.2.15\include\begin_code.h
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\close_code.h
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_keysym.h
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 d:\codeblocks\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325793194 d:\codeblocks\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1511117289 source:d:\programmation (c & c#)\c\tarot\tarot sdl\carte.c
+	"carte.h"
+
+1511111088 d:\programmation (c & c#)\c\tarot\tarot sdl\carte.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"joueur.h"
+	"structures.h"
+	"liste_chainee.h"
+	"fichier.h"
+
+1507905904 d:\programmation (c & c#)\c\tarot\tarot sdl\joueur.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1511117535 d:\programmation (c & c#)\c\tarot\tarot sdl\structures.h
+	<SDL_image.h>
+
+1511114010 d:\programmation (c & c#)\c\tarot\tarot sdl\liste_chainee.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1511116898 source:d:\programmation (c & c#)\c\tarot\tarot sdl\fichier.c
+	"fichier.h"
+
+1511116893 d:\programmation (c & c#)\c\tarot\tarot sdl\fichier.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<dirent.h>
+	<errno.h>
+	"joueur.h"
+	<sys/types.h>
+
+1511119973 source:d:\programmation (c & c#)\c\tarot\tarot sdl\jeu_carte.c
+	"jeu_carte.h"
+
+1511113703 d:\programmation (c & c#)\c\tarot\tarot sdl\jeu_carte.h
+	<stdio.h>
+	<stdlib.h>
+	"liste_chainee.h"
+	"structures.h"
+
+1511118951 source:d:\programmation (c & c#)\c\tarot\tarot sdl\joueur.c
+	"joueur.h"
+
+1511118428 source:d:\programmation (c & c#)\c\tarot\tarot sdl\liste_chainee.c
+	"liste_chainee.h"
+
+1511120343 source:d:\programmation (c & c#)\c\tarot\tarot sdl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"joueur.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511116898 source:f:\programmation (c & c#)\c\tarot sdl\fichier.c
+	"fichier.h"
+
+1511116893 f:\programmation (c & c#)\c\tarot sdl\fichier.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<dirent.h>
+	<errno.h>
+	"joueur.h"
+	<sys/types.h>
+
+1511207091 f:\programmation (c & c#)\c\tarot sdl\joueur.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511198922 f:\programmation (c & c#)\c\tarot sdl\carte.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"joueur.h"
+	"structures.h"
+	"liste_chainee.h"
+	"fichier.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+
+1511205919 f:\programmation (c & c#)\c\tarot sdl\structures.h
+	<SDL_image.h>
+
+1511203846 f:\programmation (c & c#)\c\tarot sdl\liste_chainee.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1511208388 source:f:\programmation (c & c#)\c\tarot sdl\joueur.c
+	"joueur.h"
+
+1511203898 source:f:\programmation (c & c#)\c\tarot sdl\carte.c
+	"carte.h"
+
+1511203926 source:f:\programmation (c & c#)\c\tarot sdl\jeu_carte.c
+	"jeu_carte.h"
+
+1511113703 f:\programmation (c & c#)\c\tarot sdl\jeu_carte.h
+	<stdio.h>
+	<stdlib.h>
+	"liste_chainee.h"
+	"structures.h"
+
+1511203832 source:f:\programmation (c & c#)\c\tarot sdl\liste_chainee.c
+	"liste_chainee.h"
+
+1511207908 source:f:\programmation (c & c#)\c\tarot sdl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"joueur.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511476364 source:f:\programmation (c & c#)\c\tarot sdl - test event\carte.c
+	"carte.h"
+
+1511468597 f:\programmation (c & c#)\c\tarot sdl - test event\carte.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"joueur.h"
+	"structures.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	"fichier.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+
+1511374320 f:\programmation (c & c#)\c\tarot sdl - test event\joueur.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511435103 f:\programmation (c & c#)\c\tarot sdl - test event\structures.h
+	<SDL_image.h>
+
+1511376498 f:\programmation (c & c#)\c\tarot sdl - test event\liste_chainee.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1511116893 f:\programmation (c & c#)\c\tarot sdl - test event\fichier.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<dirent.h>
+	<errno.h>
+	"joueur.h"
+	<sys/types.h>
+
+1511116898 source:f:\programmation (c & c#)\c\tarot sdl - test event\fichier.c
+	"fichier.h"
+
+1511478044 source:f:\programmation (c & c#)\c\tarot sdl - test event\jeu_carte.c
+	"jeu_carte.h"
+
+1511478056 f:\programmation (c & c#)\c\tarot sdl - test event\jeu_carte.h
+	<stdio.h>
+	<stdlib.h>
+	"liste_chainee.h"
+	"structures.h"
+	"affichage.h"
+
+1511476225 source:f:\programmation (c & c#)\c\tarot sdl - test event\joueur.c
+	"joueur.h"
+
+1511464911 source:f:\programmation (c & c#)\c\tarot sdl - test event\liste_chainee.c
+	"liste_chainee.h"
+
+1511478215 source:f:\programmation (c & c#)\c\tarot sdl - test event\main.c
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"joueur.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511477254 source:f:\programmation (c & c#)\c\tarot sdl - test event\affichage.c
+	"affichage.h"
+
+1511476225 f:\programmation (c & c#)\c\tarot sdl - test event\affichage.h
+	"joueur.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511375183 source:f:\programmation (c & c#)\c\tarot sdl - test event\structures.c
+	"structures.h"
+
+1511477254 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\affichage.c
+	"affichage.h"
+
+1511476225 d:\programmation (c & c#)\c\tarot\tarot sdl - final\affichage.h
+	"joueur.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511374320 d:\programmation (c & c#)\c\tarot\tarot sdl - final\joueur.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511533832 d:\programmation (c & c#)\c\tarot\tarot sdl - final\carte.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"joueur.h"
+	"structures.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	"fichier.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+
+1511435103 d:\programmation (c & c#)\c\tarot\tarot sdl - final\structures.h
+	<SDL_image.h>
+
+1511376498 d:\programmation (c & c#)\c\tarot\tarot sdl - final\liste_chainee.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1511478056 d:\programmation (c & c#)\c\tarot\tarot sdl - final\jeu_carte.h
+	<stdio.h>
+	<stdlib.h>
+	"liste_chainee.h"
+	"structures.h"
+	"affichage.h"
+
+1511116893 d:\programmation (c & c#)\c\tarot\tarot sdl - final\fichier.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<dirent.h>
+	<errno.h>
+	"joueur.h"
+	<sys/types.h>
+
+1511116898 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\fichier.c
+	"fichier.h"
+
+1511476225 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\joueur.c
+	"joueur.h"
+
+1511464911 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\liste_chainee.c
+	"liste_chainee.h"
+
+1511557171 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"joueur.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511375183 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\structures.c
+	"structures.h"
+
+1511559704 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\jeu_carte.c
+	"jeu_carte.h"
+
+1511559759 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final\carte.c
+	"carte.h"
+
+1511477254 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\affichage.c
+	"affichage.h"
+
+1511476225 d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\affichage.h
+	"joueur.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511374320 d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\joueur.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511533832 d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\carte.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"joueur.h"
+	"structures.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	"fichier.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+
+1511435103 d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\structures.h
+	<SDL_image.h>
+
+1511376498 d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\liste_chainee.h
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+
+1511478056 d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\jeu_carte.h
+	<stdio.h>
+	<stdlib.h>
+	"liste_chainee.h"
+	"structures.h"
+	"affichage.h"
+
+1511116893 d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\fichier.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<dirent.h>
+	<errno.h>
+	"joueur.h"
+	<sys/types.h>
+
+1511116898 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\fichier.c
+	"fichier.h"
+
+1511559704 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\jeu_carte.c
+	"jeu_carte.h"
+
+1511476225 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\joueur.c
+	"joueur.h"
+
+1511464911 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\liste_chainee.c
+	"liste_chainee.h"
+
+1511557171 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"carte.h"
+	"joueur.h"
+	"liste_chainee.h"
+	"jeu_carte.h"
+	"affichage.h"
+	<SDL/SDL.h>
+	<SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1511375183 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\structures.c
+	"structures.h"
+
+1511624004 source:d:\programmation (c & c#)\c\tarot\tarot sdl - final(save)\carte.c
+	"carte.h"
+
